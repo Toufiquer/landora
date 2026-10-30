@@ -17,7 +17,18 @@ import { authClient } from "@/app/api/lib/auth-client";
 const fieldClassName =
   "w-full rounded-sm border border-stone-200 bg-white py-3 pl-11 pr-4 text-sm text-stone-900 outline-none transition placeholder:text-stone-400 focus:border-amber-600 focus:ring-4 focus:ring-amber-500/10";
 
+const demoAccounts = [
+  { label: "Developer", email: "developer@gmail.com", password: "developer@DEVELOPER" },
+  { label: "Admin", email: "admin@gmail.com", password: "admin@ADMIN" },
+  { label: "Counselor 1", email: "councilor1@gmail.com", password: "councilor1@COUNCILOR1" },
+  { label: "Counselor 2", email: "councilor2@gmail.com", password: "councilor2@COUNCILOR2" },
+  { label: "Client 1", email: "client1@gmail.com", password: "client1@CLIENT1" },
+  { label: "Client 2", email: "client2@gmail.com", password: "client2@CLIENT2" },
+  { label: "Blocked", email: "block@gmail.com", password: "block@BLOCK" },
+];
+
 export function LoginPanel() {
+  const [selectedDemoAccount, setSelectedDemoAccount] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -39,6 +50,16 @@ export function LoginPanel() {
   }, [resendUntil]);
 
   const resendRemaining = Math.max(0, Math.ceil((resendUntil - now) / 1000));
+
+  function selectDemoAccount(accountEmail: string) {
+    setSelectedDemoAccount(accountEmail);
+    const account = demoAccounts.find((demoAccount) => demoAccount.email === accountEmail);
+    if (!account) return;
+    setEmail(account.email);
+    setPassword(account.password);
+    setStatus("");
+    setShowVerificationLink(false);
+  }
 
   async function signIn(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -147,12 +168,32 @@ export function LoginPanel() {
 
             <form className="space-y-4" onSubmit={signIn}>
               <label className="block text-sm font-medium text-stone-700">
+                <span className="mb-1.5 block">Demo account</span>
+                <select
+                  aria-label="Demo account"
+                  className="w-full rounded-sm border border-stone-200 bg-white px-4 py-3 text-sm text-stone-900 outline-none transition focus:border-amber-600 focus:ring-4 focus:ring-amber-500/10"
+                  disabled={submitting}
+                  onChange={(event) => selectDemoAccount(event.target.value)}
+                  value={selectedDemoAccount}
+                >
+                  <option value="">Choose a demo account</option>
+                  {demoAccounts.map((account) => (
+                    <option key={account.email} value={account.email}>
+                      {account.label} — {account.email}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="block text-sm font-medium text-stone-700">
                 <span className="mb-1.5 block">Email</span>
                 <span className="relative block">
                   <input
                     autoComplete="email"
                     className={fieldClassName}
-                    onChange={(event) => setEmail(event.target.value)}
+                    onChange={(event) => {
+                      setEmail(event.target.value);
+                      setSelectedDemoAccount("");
+                    }}
                     placeholder="you@example.com"
                     required
                     type="email"
@@ -176,7 +217,10 @@ export function LoginPanel() {
                     autoComplete="current-password"
                     className={fieldClassName}
                     minLength={8}
-                    onChange={(event) => setPassword(event.target.value)}
+                    onChange={(event) => {
+                      setPassword(event.target.value);
+                      setSelectedDemoAccount("");
+                    }}
                     placeholder="Your password"
                     required
                     type={showPassword ? "text" : "password"}
