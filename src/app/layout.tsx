@@ -78,7 +78,7 @@ export default function RootLayout({
         </div>
         <ReduxProvider>
           <ConfirmDeleteProvider>
-            <div className="print:hidden">
+            <div className="contents print:hidden">
               <TopBanner />
               <Menu />
             </div>
