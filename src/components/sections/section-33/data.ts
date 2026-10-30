@@ -46,11 +46,11 @@ export const defaultDataSection33: Section33Data = {
   id: "section-uid-33",
   pageUid: "section-uid-33",
   pageName: "Section 33",
-  badgeText: "NexaMart · NxMart",
+  badgeText: "Landora · NxMart",
   showEyebrow: true,
   titleLine1: "Online shopping",
   titleLine2: "across Bangladesh",
-  subtitle: "Browse available products on NexaMart.",
+  subtitle: "Browse available products on Landora.",
   stats: [],
   features: [],
 };

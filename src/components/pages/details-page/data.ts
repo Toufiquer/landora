@@ -125,7 +125,7 @@ export const defaultDataDetailsPage: IDetailsPageData = {
   pageUid: "details-page-uid",
   pageName: "Product Showcase",
   imageUrl: "/Logo.png",
-  imageAlt: "NexaMart product image",
+  imageAlt: "Landora product image",
   categoryTitle: "Products",
   priceLabel: "Price",
   price: "",

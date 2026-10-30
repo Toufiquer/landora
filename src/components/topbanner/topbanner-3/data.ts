@@ -23,7 +23,7 @@ export type TopBannerThreeData = {
 export const defaultData: TopBannerThreeData = {
   variant: "topbanner-3",
   isVisible: true,
-  text: "NexaMart (NxMart) · Online shopping across Bangladesh",
+  text: "Landora (NxMart) · Online shopping across Bangladesh",
   ctaLabel: "Browse products",
   ctaUrl: "/products",
   buttonVisible: true,

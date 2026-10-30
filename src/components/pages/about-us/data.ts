@@ -20,28 +20,28 @@ export const defaultSections: AboutSection[] = [
     eyebrow: "What we believe",
     showEyebrow: true,
     title: "Useful work starts with clear thinking.",
-    description: "NexaMart is an online shopping platform serving customers across Bangladesh.",
+    description: "Landora is an online shopping platform serving customers across Bangladesh.",
   },
   {
     id: "work",
     eyebrow: "How we work",
     showEyebrow: true,
     title: "We make complex work feel simple.",
-    description: "NexaMart helps customers browse available products online.",
+    description: "Landora helps customers browse available products online.",
   },
   {
     id: "people",
     eyebrow: "The people behind it",
     showEyebrow: true,
     title: "A collaborative team brings ideas to life.",
-    description: "NexaMart is also known as NxMart.",
+    description: "Landora is also known as NxMart.",
   },
   {
     id: "next",
     eyebrow: "What comes next",
     showEyebrow: true,
     title: "Strong work keeps improving after launch.",
-    description: "For questions, contact NexaMart by phone, WhatsApp, or email.",
+    description: "For questions, contact Landora by phone, WhatsApp, or email.",
   },
 ];
 
@@ -56,8 +56,8 @@ export const defaultAboutSection: Omit<AboutSection, "id"> = {
 export const defaultData = {
   eyebrow: "About us",
   showEyebrow: "true",
-  title: "About NexaMart",
-  intro: "NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh.",
+  title: "About Landora",
+  intro: "Landora (NxMart) is an online shopping platform serving customers across Bangladesh.",
   image: "/Logo.png",
   sectionsJson: JSON.stringify(defaultSections),
   paddingX: "0",

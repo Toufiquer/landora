@@ -27,11 +27,11 @@ export interface Section29Props {
 
 export const defaultDataSection29: Section29Data = {
   id: "section-uid-29",
-  title: "Questions about shopping with NexaMart?",
-  subtitle: "Contact NexaMart by phone or WhatsApp.",
+  title: "Questions about shopping with Landora?",
+  subtitle: "Contact Landora by phone or WhatsApp.",
   buttonPrimaryText: "Browse products",
   buttonSecondaryText: "Contact us",
-  contactLabel: "Call NexaMart",
+  contactLabel: "Call Landora",
   contactNumber: "01711111111",
 };
 

@@ -72,6 +72,6 @@ export const defaultDataCountryDirectory: ICountryDirectoryData = {
   searchPlaceholder: "Search products",
   viewAllLabel: "Browse products",
   sectionTitlePrefix: "Available products",
-  emptyMessage: "Browse products on NexaMart",
+  emptyMessage: "Browse products on Landora",
   countries: [],
 };

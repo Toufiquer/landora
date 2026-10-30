@@ -35,7 +35,7 @@ export interface Section32Props {
 
 export const defaultDataSection32: Section32Data = {
   id: "section-uid-32",
-  title: "NexaMart",
+  title: "Landora",
   subtitle: "Online shopping across Bangladesh",
   stories: [],
 };

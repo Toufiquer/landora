@@ -9,7 +9,7 @@
 export const defaultDataSection2 = {
   id: "section-uid-2",
   heading: "Online shopping across Bangladesh",
-  description: "Browse available products from NexaMart.",
+  description: "Browse available products from Landora.",
   paddingX: "0",
   paddingY: "0",
 };

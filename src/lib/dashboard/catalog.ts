@@ -146,7 +146,7 @@ export function createProductDefaults({
 }): ProductInput {
   const suffix = now.toString(36).toUpperCase();
   return {
-    brand: "NexaMart",
+    brand: "Landora",
     categories: [categoryId],
     deliveryTime: "3–5 business days",
     description: emptyRichText,

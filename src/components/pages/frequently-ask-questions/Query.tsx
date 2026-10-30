@@ -167,7 +167,7 @@ export default function Query({ data = defaultData }: { data?: Record<string, st
         <div className="mx-auto max-w-7xl rounded-sm border border-amber-200 bg-[#fff8e8] p-5 text-center sm:p-6">
           <h2 className="text-2xl font-semibold text-slate-950">Still have a question?</h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm leading-7 text-slate-600">
-            Send us your question and relevant project details. The NexaMart team will help with the right next step.
+            Send us your question and relevant project details. The Landora team will help with the right next step.
           </p>
           <Link
             className="mt-5 inline-flex min-h-10 cursor-pointer items-center justify-center rounded-sm bg-amber-700 px-4 text-sm font-medium text-white transition-all duration-700 hover:bg-amber-800 focus:outline-none focus:ring-4 focus:ring-amber-200"

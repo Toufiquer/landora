@@ -27,9 +27,9 @@ export const defaultDataSection9: Section9Data = {
   id: "section-uid-9",
   paddingX: 0,
   paddingY: 0,
-  eyebrow: "NexaMart · NxMart",
+  eyebrow: "Landora · NxMart",
   showEyebrow: true,
   title: "Online shopping",
   subTitle: "Across Bangladesh",
-  description: "Browse available products on NexaMart.",
+  description: "Browse available products on Landora.",
 };

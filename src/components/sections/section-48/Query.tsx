@@ -140,7 +140,7 @@ export function TextDemoHero({
   const openWhatsAppContact = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const message = [
-      "Hello NexaMart, I have a question.",
+      "Hello Landora, I have a question.",
       `Name: ${contactForm.fullName}`,
       `Phone: ${contactForm.mobileWhatsApp}`,
       contactForm.productQuestion ? `Product or question: ${contactForm.productQuestion}` : "",
@@ -349,7 +349,7 @@ export function TextDemoHero({
             >
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
-                  <p className="text-sm font-black text-slate-950">Contact NexaMart</p>
+                  <p className="text-sm font-black text-slate-950">Contact Landora</p>
                   <p className="mt-0.5 text-xs text-slate-500">Send a question about online shopping.</p>
                 </div>
                 <span className="grid h-10 w-10 place-items-center rounded-full bg-[#cf0a2c]/10 text-[#cf0a2c]">

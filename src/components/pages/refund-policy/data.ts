@@ -56,7 +56,7 @@ export const defaultDataPage7: IPage7Data = {
   highlightTitle: "",
   highlightDescription: "",
   sections: [],
-  contactTitle: "Contact NexaMart",
+  contactTitle: "Contact Landora",
   contactDescription: "For questions, contact us by phone, WhatsApp, or email.",
   supportEmail: "example@gmail.com",
 };

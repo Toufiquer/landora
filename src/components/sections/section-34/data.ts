@@ -39,7 +39,7 @@ export const defaultDataSection34: ISection34Data = {
   id: "section-uid-34",
   pageUid: "section-uid-34",
   pageName: "Section 34",
-  badgeText: "NexaMart · NxMart",
+  badgeText: "Landora · NxMart",
   title: "Product videos",
   subtitle: "",
   videos: [],

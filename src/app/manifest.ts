@@ -10,7 +10,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "NexaMart",
+    name: "Landora",
     short_name: "NxMart",
     description: "Online shopping across Bangladesh.",
     start_url: "/",

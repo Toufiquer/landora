@@ -36,7 +36,7 @@ export interface Section30Props {
 
 export const defaultDataSection30: Section30Data = {
   id: "section-uid-30",
-  badgeText: "NexaMart · NxMart",
+  badgeText: "Landora · NxMart",
   headingPrefix: "Online",
   headingHighlight: "shopping",
   headingSuffix: "across Bangladesh",

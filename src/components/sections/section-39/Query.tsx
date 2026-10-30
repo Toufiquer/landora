@@ -82,7 +82,7 @@ const QuerySection39 = ({ data }: Section39Props) => {
           >
             <Image
               src={sectionData.primaryImage}
-              alt="NexaMart online shopping"
+              alt="Landora online shopping"
               fill
               unoptimized
               sizes="(max-width: 1024px) 68vw, 29vw"

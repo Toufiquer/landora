@@ -30,10 +30,10 @@ export interface Section42Props {
 
 export const defaultDataSection42: Section42Data = {
   id: "section-uid-42",
-  title: "Shop online with NexaMart",
-  paragraphs: ["NexaMart (NxMart) is an online shopping platform serving customers across Bangladesh."],
+  title: "Shop online with Landora",
+  paragraphs: ["Landora (NxMart) is an online shopping platform serving customers across Bangladesh."],
   imageUrl: "/Logo.png",
-  imageAlt: "NexaMart logo",
+  imageAlt: "Landora logo",
   backgroundColor: "#f6f7f9",
   headingColor: "#252d8f",
   textColor: "#202641",

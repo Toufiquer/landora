@@ -31,7 +31,7 @@ export const defaultDataSection35: Section35Data = {
   id: "section-uid-35",
   pageUid: "section-uid-35",
   pageName: "Section 35",
-  text: "Browse products on NexaMart",
+  text: "Browse products on Landora",
   link: "/products",
   gradientFrom: "#2563eb",
   gradientTo: "#7c3aed",

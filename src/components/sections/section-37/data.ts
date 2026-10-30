@@ -39,13 +39,13 @@ export interface Section37Props {
 
 export const defaultDataSection37: Section37Data = {
   id: "section-uid-37",
-  titleLineOne: "NexaMart · NxMart",
+  titleLineOne: "Landora · NxMart",
   titleEnglish: "ONLINE",
   titleEnglishSuffix: "SHOPPING",
   titleHighlight: "ACROSS BANGLADESH.",
   descriptionLead: "Browse",
   descriptionAccent: "AVAILABLE PRODUCTS",
-  descriptionTail: "and shop online with NexaMart.",
+  descriptionTail: "and shop online with Landora.",
   primaryButtonText: "Browse products",
   primaryButtonLink: "/products",
   secondaryButtonText: "Contact us",

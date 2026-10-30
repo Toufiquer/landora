@@ -47,10 +47,10 @@ const defaultDataSection14Items: Section14Data[] = [
     sectionUid: "section-uid-14",
     paddingX: 0,
     paddingY: 0,
-    badge: "NexaMart · NxMart",
+    badge: "Landora · NxMart",
     showEyebrow: true,
     title: "Online shopping",
-    subTitle: "Browse products available on NexaMart.",
+    subTitle: "Browse products available on Landora.",
     allData: [],
   },
 ];

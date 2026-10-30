@@ -135,7 +135,7 @@ const ClientSection7: React.FC<Section7Props> = ({ data }) => {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-500 max-w-2xl mx-auto"
           >
-            Browse available products on NexaMart, serving customers across {sectionData.country}.
+            Browse available products on Landora, serving customers across {sectionData.country}.
           </motion.p>
         </div>
 

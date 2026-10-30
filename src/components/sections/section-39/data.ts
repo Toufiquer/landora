@@ -35,12 +35,12 @@ export interface Section39Props {
 export const defaultDataSection39: Section39Data = {
   id: "section-uid-39",
   titlePrefix: "Shop online with",
-  highlightedTitle: "NexaMart",
+  highlightedTitle: "Landora",
   titleSuffix: "across Bangladesh",
   paragraphs: [
-    "NexaMart is an online shopping platform in Bangladesh.",
-    "Browse the products available on NexaMart and contact us if you have a question.",
-    "NexaMart serves customers across Bangladesh.",
+    "Landora is an online shopping platform in Bangladesh.",
+    "Browse the products available on Landora and contact us if you have a question.",
+    "Landora serves customers across Bangladesh.",
   ],
   primaryImage: "/Logo.png",
   topImage: "/Logo.png",

@@ -58,11 +58,11 @@ export const defaultLayout = {
 
 export const defaultDataPage8: IPage8Data = {
   pageUid: "page-uid-tema-member",
-  pageName: "NexaMart Team",
-  eyebrow: "NexaMart · NxMart",
+  pageName: "Landora Team",
+  eyebrow: "Landora · NxMart",
   showEyebrow: true,
-  title: "NexaMart",
-  description: "NexaMart is an online shopping platform serving customers across Bangladesh.",
+  title: "Landora",
+  description: "Landora is an online shopping platform serving customers across Bangladesh.",
   founderLabel: "Founder",
   showFounderLabel: true,
   ceo: { id: "ceo", name: "", title: "", bio: "", image: "" },

@@ -31,7 +31,7 @@ export interface Section28Props {
 
 export const defaultDataSection28: Section28Data = {
   id: "section-uid-28",
-  title: "Explore NexaMart",
+  title: "Explore Landora",
   subtitle: "Online shopping across Bangladesh.",
   features: [],
 };

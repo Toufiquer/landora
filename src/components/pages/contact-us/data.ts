@@ -9,7 +9,7 @@
 export const defaultData = {
   showEyebrow: "true",
   title: "Let’s talk",
-  intro: "Contact NexaMart with your question or support request.",
+  intro: "Contact Landora with your question or support request.",
   emailLabel: "Email",
   email: "example@gmail.com",
   addressLabel: "Address",

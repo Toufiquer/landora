@@ -25,7 +25,7 @@ export interface Section26Props {
 
 export const defaultDataSection26: Section26Data = {
   id: "section-uid-26",
-  title: "Shop online with NexaMart",
+  title: "Shop online with Landora",
   buttonText: "Browse products",
   stats: [],
 };

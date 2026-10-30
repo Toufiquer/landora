@@ -35,9 +35,9 @@ const geistMono = Geist_Mono({
 
 export async function generateMetadata(): Promise<Metadata> {
   const setting = await getSeoSettings({ type: "layout" });
-  const title = setting?.title || "NexaMart";
+  const title = setting?.title || "Landora";
   const description =
-    setting?.description || "NexaMart is an online shopping platform serving customers across Bangladesh.";
+    setting?.description || "Landora is an online shopping platform serving customers across Bangladesh.";
   const images = setting?.socialImage ? [setting.socialImage] : undefined;
   return {
     metadataBase: getCanonicalAppUrl(),
@@ -51,7 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title,
       description,
       type: "website",
-      siteName: "NexaMart",
+      siteName: "Landora",
       ...(setting?.canonicalUrl ? { url: setting.canonicalUrl } : {}),
       ...(images ? { images } : {}),
     },

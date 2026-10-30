@@ -48,7 +48,7 @@ export const defaultDataSection7: Section7Data = {
   id: "section-uid-7",
   paddingX: 0,
   paddingY: 0,
-  eyebrow: "NexaMart · NxMart",
+  eyebrow: "Landora · NxMart",
   showEyebrow: true,
   country: "Bangladesh",
   city: [],

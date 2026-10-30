@@ -150,7 +150,7 @@ const QuerySection30 = ({ data }: Section30Props) => {
                     </div>
 
                     <div className="bg-amber-800 text-white rounded-sm px-3 py-2 shadow-lg transform -rotate-6 inline-block hover:rotate-0 transition-transform cursor-pointer border-2 border-amber-900/20">
-                      <div className="text-[10px] font-bold opacity-70 mb-0.5">NEXAMART</div>
+                      <div className="text-[10px] font-bold opacity-70 mb-0.5">Landora</div>
                       <Globe className="w-6 h-6 mx-auto" />
                     </div>
                   </div>

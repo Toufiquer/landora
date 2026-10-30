@@ -41,7 +41,7 @@ export const defaultDataSection45: Section45Data = {
   introduction: "See each product listing for its available details.",
   documents: [],
   imageUrl: "/Logo.png",
-  imageAlt: "NexaMart logo",
+  imageAlt: "Landora logo",
   backgroundColor: "#f8f9fb",
   headingColor: "#24349a",
   textColor: "#202641",

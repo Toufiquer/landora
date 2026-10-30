@@ -42,7 +42,7 @@ export interface Section27Props {
 
 export const defaultDataSection27: Section27Data = {
   id: "section-uid-27",
-  badgeText: "NexaMart · NxMart",
+  badgeText: "Landora · NxMart",
   headingPrefix: "Browse",
   headingHighlight: "available",
   headingSuffix: "products",

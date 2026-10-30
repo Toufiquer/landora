@@ -36,8 +36,8 @@ export const defaultLayout = {
 
 export const defaultDataWhatsAppFaq: IWhatsAppFaqData = {
   pageUid: "whatsapp-faq-uid",
-  pageName: "NexaMart WhatsApp",
-  heading: "NexaMart-এ যোগাযোগ করুন",
+  pageName: "Landora WhatsApp",
+  heading: "Landora-এ যোগাযোগ করুন",
   whatsappLabel: "WhatsApp করুন",
   whatsappNumber: "+8801711111111",
   faqs: [],

@@ -230,7 +230,7 @@ export default function OrderTrackingPage() {
         <section className="tracking-invoice mt-5 overflow-hidden rounded-sm border border-[#eadfca] bg-white shadow-sm print:mt-0 print:border-0 print:shadow-none">
           <header className="tracking-invoice-header flex flex-wrap items-start justify-between gap-4 border-b border-[#eadfca] bg-[#fffaf0] px-5 py-4 sm:px-6">
             <div>
-              <p className="tracking-invoice-brand text-sm font-black tracking-[0.14em] text-stone-950">NexaMart</p>
+              <p className="tracking-invoice-brand text-sm font-black tracking-[0.14em] text-stone-950">Landora</p>
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-amber-700">Payment invoice</p>
               <h2 className="mt-1 text-xl font-bold text-stone-950">Invoice for order {order.id}</h2>
               <p className="mt-1 text-xs text-stone-500">Issued {invoiceDate(order.createdAt)}</p>

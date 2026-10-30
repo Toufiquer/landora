@@ -31,9 +31,9 @@ export interface Section41Props {
 export const defaultDataSection41: Section41Data = {
   id: "section-uid-41",
   title: "Online shopping across Bangladesh",
-  paragraphs: ["NexaMart (NxMart) is an online shopping platform in Bangladesh.", "Browse available products online."],
+  paragraphs: ["Landora (NxMart) is an online shopping platform in Bangladesh.", "Browse available products online."],
   imageUrl: "/Logo.png",
-  imageAlt: "NexaMart logo",
+  imageAlt: "Landora logo",
   backgroundColor: "#f6f7f9",
   headingColor: "#252d8f",
   textColor: "#202641",

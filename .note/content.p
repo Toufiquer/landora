@@ -1,8 +1,8 @@
 =================================================================================================================================================
 ## Section 1. Company Information
-- Company name: NexaMart
+- Company name: Landora
 - Short name: NxMart
-- Business description: NexaMart is an online shopping platform in Bangladesh.
+- Business description: Landora is an online shopping platform in Bangladesh.
 - Products/Services: Online shopping
 - Service area: Across Bangladesh
 - Mobile: 01711111111

@@ -33,7 +33,7 @@ export const defaultDataSection4 = {
   paddingX: 0,
   paddingY: 0,
   showEyebrow: true,
-  badge: "NexaMart · NxMart",
+  badge: "Landora · NxMart",
   title: "Online shopping",
   subTitle: "Across Bangladesh",
   metrics: [] as DashboardMetric[],

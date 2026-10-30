@@ -37,10 +37,10 @@ export const defaultData: FooterThreeData = {
   foreground: "#1c1917",
   accent: "#dc2626",
   logoUrl: "/Logo.png",
-  logoAlt: "NexaMart logo",
+  logoAlt: "Landora logo",
   showLogo: true,
-  brand: "NexaMart",
-  description: "NexaMart (NxMart) হলো বাংলাদেশের একটি অনলাইন শপিং প্ল্যাটফর্ম।",
+  brand: "Landora",
+  description: "Landora (NxMart) হলো বাংলাদেশের একটি অনলাইন শপিং প্ল্যাটফর্ম।",
   disabledPaths: ["/dashboard", "/login", "/forgot-password", "/registration"],
   destinations: [
     { id: "home", label: "Home", url: "/", visible: true },
@@ -51,7 +51,7 @@ export const defaultData: FooterThreeData = {
   services: [],
   email: "example@gmail.com",
   phone: "01711111111",
-  copyright: `All Rights Reserved © ${new Date().getFullYear()} - NexaMart `,
+  copyright: `All Rights Reserved © ${new Date().getFullYear()} - Landora `,
   legalLinks: [
     { id: "faq", label: "Frequently Asked Questions", url: "/frequently-ask-questions", visible: true },
     { id: "contact", label: "Contact us", url: "/contact-us", visible: true },

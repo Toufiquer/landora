@@ -43,7 +43,7 @@ export const defaultDataDeliveryPolicy: IDeliveryPolicyData = {
   title: "Delivery Policy",
   lastUpdatedLabel: "",
   sections: [],
-  helpTitle: "Contact NexaMart",
+  helpTitle: "Contact Landora",
   helpDescription: "For questions, contact us by phone, WhatsApp, or email.",
   supportEmail: "example@gmail.com",
 };
